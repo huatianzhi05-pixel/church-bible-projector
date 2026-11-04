@@ -1,0 +1,6 @@
+{
+  "name": "微读圣经 · 教会礼拜与投影阅读器",
+  "description": "微读圣经风格的极简三语圣经阅读器（中文和合本 CUV、英文 KJV、印尼语 TL），支持经文快跳、多版本并排对照与教会全屏黑底白字投影模式。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

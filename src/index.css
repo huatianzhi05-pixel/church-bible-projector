@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-zh-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+    --font-latin-serif: "Lora", "Georgia", "Cambria", "Times New Roman", serif;
+  }
+
+  body {
+    background-color: #FBF9F5;
+    color: #1C1917;
+    font-family: var(--font-zh-serif);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html.dark body {
+    background-color: #141413;
+    color: #E7E5E4;
+  }
+}
+
+.font-zh-serif {
+  font-family: var(--font-zh-serif);
+}
+
+.font-latin-serif {
+  font-family: var(--font-latin-serif);
+}
+
